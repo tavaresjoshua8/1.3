@@ -39,7 +39,6 @@ public class DemoArrayList {
                     }
                     break;
                 case "3":// Bloque para eliminar un dato del arrayList
-                    String d;
                     b = JOptionPane.showInputDialog(null, "Ingrese el dato a eliminar: ");
                     for (int i = 0; i < miAList.size(); i++) {
                         if (miAList.get(i).equals(b)) {
@@ -48,7 +47,7 @@ public class DemoArrayList {
                     }
                     break;
                 case "4":// Bloque para buscar datos en el array list
-                    String mostrarDatos = "No se ha encontrado nada!", f;
+                    String mostrarDatos = "No se ha encontrado nada!";
                     c = JOptionPane.showInputDialog(null, "Ingrese el dato a buscar: ");
                     for (int i = 0; i < miAList.size(); i++) {
                         if (miAList.get(i).equals(c)) {
